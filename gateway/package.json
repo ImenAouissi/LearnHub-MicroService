@@ -1,0 +1,19 @@
+{
+  "name": "learnhub-gateway",
+  "version": "1.0.0",
+  "description": "Porte d entree unique de LearnHub",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "nodemon -L src/index.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.19.2",
+    "http-proxy-middleware": "^3.0.0",
+    "jsonwebtoken": "^9.0.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.4"
+  }
+}
